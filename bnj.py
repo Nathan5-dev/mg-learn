@@ -1,0 +1,1 @@
+print("bonjour \n la firmation va continuer meme sans machine")
