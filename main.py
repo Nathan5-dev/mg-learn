@@ -1,13 +1,10 @@
 import matplotlib.pyplot as plt
-import pandas as pd 
-import numpy as np 
+#import pandas as pd 
+#import numpy as np 
 
 print("Bonjour")
 
-for i in range(2):
-    print(type(pd))
-    print(type(plt))
-    print(type(np))
-    
-plt.plot(range(10),(x*2 for x in range(10))
+x= [1,2,3,4,5,6,7,8,9,10]
+y = [i*2 for i in x]
+plt.plot(x, y)
 plt.show()
