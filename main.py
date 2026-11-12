@@ -34,5 +34,3 @@ def main() -> None:
     afficher_courbe_lineaire(pente, ordonnee_origine)
 
 
-if __name__ == "__main__":
-    main()
